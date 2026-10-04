@@ -1,0 +1,8 @@
+<article class="paper" id="{{ paper.id }}">
+  <h3>{{ paper.title | escape }}</h3>
+  <p class="authors">{{ paper.authors | escape }}</p>
+  {% unless paper.category == 'work_in_progress' %}<p class="citation">{{ paper.citation | escape }}</p>{% endunless %}
+  {% if paper.note != '' %}<p class="note">{{ paper.note | escape }}</p>{% endif %}
+  {% if paper.links.size > 0 %}<ul class="paper-links">{% for link in paper.links %}<li><a href="{{ link.url | escape }}">{{ link.label | escape }}</a></li>{% endfor %}</ul>{% endif %}
+  {% if paper.commentary.size > 0 %}<div class="related-commentary"><h4>Media coverage</h4><ul>{% for column in paper.commentary %}<li><a href="{{ column.url | escape }}">{{ column.title | escape }}</a><span class="commentary-meta"> · {{ column.outlet | escape }}, {% if column.display_date %}{{ column.display_date }}{% else %}{{ column.date | date: '%-d %B %Y' }}{% endif %}</span></li>{% endfor %}</ul></div>{% endif %}
+</article>

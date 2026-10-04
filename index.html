@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<section class="profile">
+  <div>
+    <p class="eyebrow">{{ site.data.profile.position }}</p>
+    <h1>Gianmarco Cariola</h1>
+    <p class="intro">Welcome to my website! I currently work as a research economist at the Bank of Italy, Bologna branch.</p>
+    <p>I hold a PhD in International Economics from the Geneva Graduate Institute. My research is in applied microeconomics, with a focus on international trade and firm dynamics.</p>
+    <p class="contact"><a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a></p>
+    <div class="profile-links"><a href="{{ '/research/' | relative_url }}">Research</a>{% if site.cv_pdf %}<a href="{{ site.cv_pdf | relative_url }}">CV (PDF)</a>{% endif %}<a href="{{ site.data.profile.scholar }}">Google Scholar</a><a href="{{ site.data.profile.linkedin }}">LinkedIn</a></div>
+  </div>
+  <img class="portrait" src="{{ '/assets/images/profile.jpg' | relative_url }}" width="720" height="960" alt="Gianmarco Cariola outdoors in the mountains" fetchpriority="high">
+</section>

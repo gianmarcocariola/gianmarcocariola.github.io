@@ -1,0 +1,17 @@
+title: Gianmarco Cariola
+description: Economist at the Bank of Italy. Research in International Trade and Firm Dynamics.
+url: ""
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+cv_pdf: /assets/documents/gianmarco-cariola-cv.pdf
+exclude:
+  - README.md
+  - AGENTS.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - docs
+  - cv/gianmarco-cariola-cv.tex
+  - .bundle
+  - .gitignore

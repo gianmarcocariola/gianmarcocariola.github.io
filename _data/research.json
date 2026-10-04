@@ -1,0 +1,377 @@
+[
+  {
+    "id": "inputs-distress",
+    "category": "publications",
+    "title": "Inputs in distress: Geoeconomic fragmentation and firms’ sourcing",
+    "authors": "Ludovic Panon, Laura Lebastard, Michele Mancini, Alessandro Borin, Peonare Caka Tofani, Gianmarco Cariola, Dennis Essers, Elena Gentili, Andrea Linarello, Tullia Padellini, Francisco Requena and Jacopo Timini",
+    "citation": "European Economic Review, 187, 105355 (2026).",
+    "links": [
+      {
+        "label": "Journal article · DOI",
+        "url": "https://doi.org/10.1016/j.euroecorev.2026.105355"
+      },
+      {
+        "label": "Working-paper version · Bank of Italy 861",
+        "url": "https://www.bancaditalia.it/pubblicazioni/qef/2024-0861/index.html?com.dotmarketing.htmlpage.language=1"
+      },
+      {
+        "label": "Earlier version · Bank of Italy 819",
+        "url": "https://www.bancaditalia.it/pubblicazioni/qef/2023-0819/index.html?com.dotmarketing.htmlpage.language=1"
+      },
+      {
+        "label": "ECB working-paper version · 2992",
+        "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2992~ccb9cb4a80.en.pdf"
+      },
+      {
+        "label": "Banco de España working-paper version · 2436",
+        "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/24/Files/dt2436e.pdf"
+      }
+    ],
+    "note": "",
+    "verified_on": "2026-10-03",
+    "sources": [
+      "https://www.sciencedirect.com/science/article/pii/S0014292126000991",
+      "https://www.bancaditalia.it/pubblicazioni/qef/2024-0861/index.html?com.dotmarketing.htmlpage.language=1",
+      "https://www.bancaditalia.it/pubblicazioni/qef/2023-0819/index.html?com.dotmarketing.htmlpage.language=1",
+      "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2992~ccb9cb4a80.en.pdf",
+      "https://api.crossref.org/works/10.1016/j.euroecorev.2026.105355",
+      "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/24/Files/dt2436e.pdf"
+    ],
+    "commentary": [
+      {
+        "id": "critical-voxeu",
+        "project_id": "inputs-distress",
+        "title": "Critical input disruptions: Mapping out the road to EU resilience",
+        "authors": "Ludovic Panon, Laura Lebastard, Michele Mancini, Alessandro Borin, Dennis Essers, Andrea Linarello, Peonare Caka, Gianmarco Cariola, Elena Gentili, Tullia Padellini, Francisco Requena and Jacopo Timini",
+        "outlet": "VoxEU",
+        "date": "2025-03-04",
+        "url": "https://cepr.org/voxeu/columns/critical-input-disruptions-mapping-out-road-eu-resilience",
+        "verified_on": "2026-10-03"
+      },
+      {
+        "id": "geopolitical-voxeu",
+        "project_id": "inputs-distress",
+        "title": "Inputs in geopolitical distress: A risk assessment based on micro data",
+        "authors": "Alessandro Borin, Gianmarco Cariola, Elena Gentili, Andrea Linarello, Michele Mancini, Tullia Padellini, Ludovic Panon and Enrico Sette",
+        "outlet": "VoxEU",
+        "date": "2024-01-28",
+        "url": "https://cepr.org/voxeu/columns/inputs-geopolitical-distress-risk-assessment-based-micro-data",
+        "verified_on": "2026-10-03"
+      },
+      {
+        "id": "inputs-suerf",
+        "project_id": "inputs-distress",
+        "title": "Inputs in Distress: Geoeconomic Fragmentation and Firms’ Sourcing",
+        "authors": "Ludovic Panon, Laura Lebastard, Michele Mancini, Alessandro Borin, Peonare Caka, Gianmarco Cariola, Dennis Essers, Elena Gentili, Andrea Linarello, Tullia Padellini, Francisco Requena and Jacopo Timini",
+        "outlet": "SUERF Policy Brief 1022",
+        "date": "2024-11",
+        "display_date": "November 2024",
+        "url": "https://www.suerf.org/publications/suerf-policy-notes-and-briefs/inputs-in-distress-geoeconomic-fragmentation-and-firms-sourcing/",
+        "verified_on": "2026-10-04"
+      }
+    ]
+  },
+  {
+    "id": "multinationals-innovation",
+    "category": "publications",
+    "title": "Multinationals and Innovation in Italy: Evidence from Patent and Firm-to-Firm Transaction Data",
+    "authors": "Gianmarco Cariola, Giovanni Battista Carnevali, Andrea Linarello, Francesco Manaresi, Emanuele Russo and Matteo Sartori",
+    "citation": "Economia Italiana, 2026/1.",
+    "links": [
+      {
+        "label": "Journal issue",
+        "url": "https://economiaitaliana.org/pubblicazioni/"
+      }
+    ],
+    "note": "",
+    "verified_on": "2026-10-03",
+    "sources": [
+      "https://economiaitaliana.org/pubblicazioni/"
+    ],
+    "commentary": []
+  },
+  {
+    "id": "covid-trade",
+    "category": "publications",
+    "title": "Trade in the time of COVID-19: an empirical analysis based on Italian data",
+    "authors": "Gianmarco Cariola",
+    "citation": "Review of World Economics, 161(4), 1463–1499 (2025).",
+    "links": [
+      {
+        "label": "Journal article · DOI",
+        "url": "https://doi.org/10.1007/s10290-025-00586-4"
+      },
+      {
+        "label": "Working-paper version · Bank of Italy 1427",
+        "url": "https://www.bancaditalia.it/pubblicazioni/temi-discussione/2023/2023-1427/index.html?com.dotmarketing.htmlpage.language=1"
+      }
+    ],
+    "note": "",
+    "verified_on": "2026-10-03",
+    "sources": [
+      "https://www.bancaditalia.it/pubblicazioni/temi-discussione/2023/2023-1427/index.html?com.dotmarketing.htmlpage.language=1",
+      "https://link.springer.com/article/10.1007/s10290-025-00586-4"
+    ],
+    "commentary": []
+  },
+  {
+    "id": "ldc-graduation",
+    "category": "publications",
+    "title": "The impact of LDC graduation on trade: A quantitative assessment",
+    "authors": "Eddy Bekkers and Gianmarco Cariola",
+    "citation": "The Journal of International Trade & Economic Development, 34(3), 397–427 (2025; online 2024).",
+    "links": [
+      {
+        "label": "Journal article · DOI",
+        "url": "https://doi.org/10.1080/09638199.2024.2323661"
+      },
+      {
+        "label": "Working-paper version · WTO ERSD-2022-05",
+        "url": "https://www.wto.org/english/res_e/reser_e/ersd202205_e.htm"
+      }
+    ],
+    "note": "",
+    "verified_on": "2026-10-03",
+    "sources": [
+      "https://doi.org/10.1080/09638199.2024.2323661",
+      "https://www.wto.org/english/res_e/reser_e/ersd202205_e.htm"
+    ],
+    "commentary": []
+  },
+  {
+    "id": "automotive-network",
+    "category": "working_papers",
+    "title": "Mapping supply chains with micro data: the case of the Italian automotive industry",
+    "authors": "Luca Brugnara, Gianmarco Cariola, Pasquale Recchia and Simone Zuccolalà",
+    "citation": "Bank of Italy Occasional Paper 1041 (2026).",
+    "links": [
+      {
+        "label": "Bank of Italy · 1041",
+        "url": "https://www.bancaditalia.it/pubblicazioni/qef/2026-1041/index.html?com.dotmarketing.htmlpage.language=1"
+      }
+    ],
+    "note": "",
+    "verified_on": "2026-10-03",
+    "sources": [
+      "https://www.bancaditalia.it/pubblicazioni/qef/2026-1041/index.html?com.dotmarketing.htmlpage.language=1"
+    ],
+    "commentary": [
+      {
+        "id": "auto-lavoce",
+        "project_id": "automotive-network",
+        "title": "La filiera dell’auto vista da dentro",
+        "authors": "Luca Brugnara, Gianmarco Cariola, Pasquale Recchia and Simone Zuccolalà",
+        "outlet": "lavoce.info",
+        "date": "2026-09-25",
+        "url": "https://lavoce.info/archives/112861/la-filiera-dellauto-vista-da-dentro/",
+        "verified_on": "2026-10-03"
+      },
+      {
+        "id": "auto-voxeu",
+        "project_id": "automotive-network",
+        "title": "Inside the automotive supply chain: Empirical evidence from Italian business-to-business trade data",
+        "authors": "Luca Brugnara, Gianmarco Cariola, Pasquale Recchia and Simone Zuccolalà",
+        "outlet": "VoxEU",
+        "date": "2026-09-16",
+        "url": "https://cepr.org/voxeu/columns/inside-automotive-supply-chain-empirical-evidence-italian-business-business-trade",
+        "verified_on": "2026-10-03"
+      }
+    ]
+  },
+  {
+    "id": "value-words",
+    "category": "working_papers",
+    "title": "The value of words: evidence from non-financial disclosure regulation",
+    "authors": "Antonio Accetturo, Audinga Baltrunaite, Gianmarco Cariola, Annalisa Frigo and Marco Gallo",
+    "citation": "Bank of Italy Working Paper 1498 (2025); CEPR Discussion Paper 20343 (2025).",
+    "links": [
+      {
+        "label": "Bank of Italy · 1498",
+        "url": "https://www.bancaditalia.it/pubblicazioni/temi-discussione/2025/2025-1498/index.html?com.dotmarketing.htmlpage.language=1"
+      },
+      {
+        "label": "CEPR · 20343",
+        "url": "https://cepr.org/publications/dp20343"
+      }
+    ],
+    "note": "",
+    "verified_on": "2026-10-03",
+    "sources": [
+      "https://www.bancaditalia.it/pubblicazioni/temi-discussione/2025/2025-1498/index.html?com.dotmarketing.htmlpage.language=1",
+      "https://cepr.org/publications/dp20343"
+    ],
+    "commentary": [
+      {
+        "id": "words-lavoce",
+        "project_id": "value-words",
+        "title": "Il valore delle parole: quanto contano le dichiarazioni non finanziarie",
+        "authors": "Antonio Accetturo, Audinga Baltrunaite, Gianmarco Cariola, Annalisa Frigo and Marco Gallo",
+        "outlet": "lavoce.info",
+        "date": "2025-07-22",
+        "url": "https://lavoce.info/archives/108464/il-valore-delle-parole-quanto-contano-le-dichiarazioni-non-finanziarie/",
+        "verified_on": "2026-10-03"
+      },
+      {
+        "id": "words-voxeu",
+        "project_id": "value-words",
+        "title": "The value of words: Evidence from non-financial disclosure regulation",
+        "authors": "Antonio Accetturo, Audinga Baltrunaite, Gianmarco Cariola, Annalisa Frigo and Marco Gallo",
+        "outlet": "VoxEU",
+        "date": "2025-07-22",
+        "url": "https://cepr.org/voxeu/columns/value-words-evidence-non-financial-disclosure-regulation",
+        "verified_on": "2026-10-03"
+      }
+    ]
+  },
+  {
+    "id": "automotive-transition",
+    "category": "working_papers",
+    "title": "The Italian automotive sector in the green transition: empirical evidence and insights from industry experts",
+    "authors": "Andrea Orame (coordinator), Gianmarco Cariola and Gianluca Viggiano",
+    "citation": "Bank of Italy Occasional Paper 911 (2025).",
+    "links": [
+      {
+        "label": "Bank of Italy · 911",
+        "url": "https://www.bancaditalia.it/pubblicazioni/qef/2025-0911/index.html?com.dotmarketing.htmlpage.language=1"
+      }
+    ],
+    "note": "",
+    "verified_on": "2026-10-03",
+    "sources": [
+      "https://www.bancaditalia.it/pubblicazioni/qef/2025-0911/index.html?com.dotmarketing.htmlpage.language=1"
+    ],
+    "commentary": []
+  },
+  {
+    "id": "multinationals",
+    "category": "working_papers",
+    "title": "Multinational enterprises in Italy: insights from firm-level data",
+    "authors": "Gianmarco Cariola, Giovanni Battista Carnevali, Andrea Linarello, Francesco Manaresi, Litterio Mirenda, Emanuele Russo, Matteo Sartori and Gianluca Viggiano",
+    "citation": "Bank of Italy Occasional Paper 894 (2024).",
+    "links": [
+      {
+        "label": "Bank of Italy · 894",
+        "url": "https://www.bancaditalia.it/pubblicazioni/qef/2024-0894/index.html?com.dotmarketing.htmlpage.language=1"
+      }
+    ],
+    "note": "",
+    "verified_on": "2026-10-03",
+    "sources": [
+      "https://www.bancaditalia.it/pubblicazioni/qef/2024-0894/index.html?com.dotmarketing.htmlpage.language=1"
+    ],
+    "commentary": []
+  },
+  {
+    "id": "carbon-pricing",
+    "category": "working_papers",
+    "title": "Comparing different approaches to tackle the challenges of global carbon pricing",
+    "authors": "Eddy Bekkers and Gianmarco Cariola",
+    "citation": "WTO Staff Working Paper ERSD-2022-10 (2022).",
+    "links": [
+      {
+        "label": "WTO · ERSD-2022-10",
+        "url": "https://www.wto.org/english/res_e/reser_e/ersd202210_e.htm"
+      }
+    ],
+    "note": "",
+    "verified_on": "2026-10-03",
+    "sources": [
+      "https://www.wto.org/english/res_e/reser_e/ersd202210_e.htm"
+    ],
+    "commentary": []
+  },
+  {
+    "id": "preference-utilization",
+    "category": "working_papers",
+    "title": "Preference utilization in the global economy: an empirical analysis",
+    "authors": "Gianmarco Cariola and Rainer Lanz",
+    "citation": "WTO Staff Working Paper ERSD-2022-04 (2022).",
+    "links": [
+      {
+        "label": "WTO · ERSD-2022-04",
+        "url": "https://www.wto.org/english/res_e/reser_e/ersd202204_e.htm"
+      }
+    ],
+    "note": "",
+    "verified_on": "2026-10-03",
+    "sources": [
+      "https://www.wto.org/english/res_e/reser_e/ersd202204_e.htm"
+    ],
+    "commentary": []
+  },
+  {
+    "id": "structural-change",
+    "category": "working_papers",
+    "title": "The determinants of structural change in the global economy: An analysis based on historical simulations",
+    "authors": "Eddy Bekkers and Gianmarco Cariola",
+    "citation": "Conference paper, 24th Annual Conference on Global Economic Analysis (2021), GTAP Resource 6341.",
+    "links": [
+      {
+        "label": "GTAP conference-paper record",
+        "url": "https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=6341"
+      }
+    ],
+    "note": "",
+    "verified_on": "2026-10-03",
+    "sources": [
+      "https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=6341"
+    ],
+    "commentary": []
+  },
+  {
+    "id": "dieselgate",
+    "category": "work_in_progress",
+    "title": "Value chains in transition: evidence from the dieselgate",
+    "authors": "with M. Alpino and E. Sette",
+    "citation": "Work in progress.",
+    "links": [],
+    "note": "",
+    "verified_on": "2026-10-03",
+    "sources": [
+      "User-supplied work in progress.docx"
+    ],
+    "commentary": []
+  },
+  {
+    "id": "border-effect",
+    "category": "work_in_progress",
+    "title": "Estimating the border effect with B2B data",
+    "authors": "with A. Accetturo and A. Linarello",
+    "citation": "Work in progress.",
+    "links": [],
+    "note": "",
+    "verified_on": "2026-10-03",
+    "sources": [
+      "User-supplied work in progress.docx"
+    ],
+    "commentary": []
+  },
+  {
+    "id": "procurement",
+    "category": "work_in_progress",
+    "title": "The impact of high-tech procurement on innovation: evidence from IIT data",
+    "authors": "with A. Baltrunaite, F. Manaresi, G. Rovigatti and E. Russo",
+    "citation": "Work in progress.",
+    "links": [],
+    "note": "",
+    "verified_on": "2026-10-03",
+    "sources": [
+      "User-supplied work in progress.docx"
+    ],
+    "commentary": []
+  },
+  {
+    "id": "subsidies",
+    "category": "work_in_progress",
+    "title": "Do subsidies (un)level the playing field? Empirical evidence from Italian exporters",
+    "authors": "with A. Accetturo and I. Di Marzio",
+    "citation": "Work in progress.",
+    "links": [],
+    "note": "",
+    "verified_on": "2026-10-03",
+    "sources": [
+      "User-supplied work in progress.docx"
+    ],
+    "commentary": []
+  }
+]

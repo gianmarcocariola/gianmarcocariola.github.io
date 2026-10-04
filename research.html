@@ -1,0 +1,10 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+<h1>Research</h1>
+<nav class="section-links" aria-label="Research sections"><a href="#publications">Publications</a><a href="#working_papers">Working papers</a><a href="#work_in_progress">Work in progress</a></nav>
+{% assign categories = 'publications,working_papers,work_in_progress' | split: ',' %}
+{% assign headings = 'Publications,Working papers,Work in progress' | split: ',' %}
+{% for category in categories %}<section class="research-section" aria-labelledby="{{ category }}"><h2 id="{{ category }}">{{ headings[forloop.index0] }}</h2>{% assign papers = site.data.research | where: 'category', category %}{% for paper in papers %}{% include research-entry.html %}{% endfor %}</section>{% endfor %}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header wrap">
+  <a class="identity" href="{{ '/' | relative_url }}">Gianmarco Cariola</a>
+  <nav aria-label="Main navigation">
+    {% assign paths = '/,/research/,/cv/' | split: ',' %}
+    {% assign labels = 'Home,Research,CV' | split: ',' %}
+    {% for path in paths %}<a href="{{ path | relative_url }}"{% if page.url == path %} aria-current="page"{% endif %}>{{ labels[forloop.index0] }}</a>{% endfor %}
+  </nav>
+</header>
+<main id="main" class="wrap">{{ content }}</main>
+<footer class="wrap"><span>Gianmarco Cariola</span><a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a><span>Updated {{ site.data.profile.updated }}</span></footer>
+</body>
+</html>
