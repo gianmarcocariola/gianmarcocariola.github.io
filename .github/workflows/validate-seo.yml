@@ -68,7 +68,7 @@ jobs:
         run: |
           mkdir -p /tmp/seo-baseline
           git archive 43184399bd12dd520749b2620770b47ece916e90 | tar -x -C /tmp/seo-baseline
-          bundle exec jekyll build --source /tmp/seo-baseline --destination /tmp/seo-baseline-output
+          (cd /tmp/seo-baseline && BUNDLE_GEMFILE="$GITHUB_WORKSPACE/Gemfile" bundle exec jekyll build --destination /tmp/seo-baseline-output)
           python3 - <<'PY'
           from pathlib import Path
           for path in ['index.html','research/index.html','cv/index.html','404.html']:
