@@ -15,3 +15,18 @@ exclude:
   - cv/gianmarco-cariola-cv.tex
   - .bundle
   - .gitignore
+
+# Metadata only: visible page content is unchanged.
+defaults:
+  - scope:
+      path: "index.html"
+    values:
+      description: "Gianmarco Cariola is a research economist at the Bank of Italy, Bologna branch. His research focuses on international trade and firm dynamics."
+  - scope:
+      path: "research.html"
+    values:
+      description: "Research by Gianmarco Cariola, economist at the Bank of Italy: publications, working papers and work in progress on international trade and firm dynamics."
+  - scope:
+      path: "cv.html"
+    values:
+      description: "Curriculum vitae of Gianmarco Cariola, research economist at the Bank of Italy: appointments, education, research and a downloadable CV."
