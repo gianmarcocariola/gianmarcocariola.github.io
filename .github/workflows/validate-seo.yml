@@ -64,3 +64,43 @@ jobs:
           assert 'Sitemap: '+origin+'/sitemap.xml' in robots and 'Disallow:' not in robots
           print('Production build metadata and sitemap checks passed')
           PY
+      - name: Compare visible content with the previous site
+        run: |
+          mkdir -p /tmp/seo-baseline
+          git archive 43184399bd12dd520749b2620770b47ece916e90 | tar -x -C /tmp/seo-baseline
+          bundle exec jekyll build --source /tmp/seo-baseline --destination /tmp/seo-baseline-output
+          python3 - <<'PY'
+          from pathlib import Path
+          for path in ['index.html','research/index.html','cv/index.html','404.html']:
+              old=(Path('/tmp/seo-baseline-output')/path).read_text().split('<body>',1)[1]
+              new=(Path('_site')/path).read_text().split('<body>',1)[1]
+              assert old==new, path
+          for old in Path('/tmp/seo-baseline-output/assets').rglob('*'):
+              if old.is_file():
+                  new=Path('_site/assets')/old.relative_to('/tmp/seo-baseline-output/assets')
+                  assert old.read_bytes()==new.read_bytes(), old
+          print('Visible HTML bodies and all assets unchanged')
+          PY
+      - name: Verify deployed Pages URLs
+        if: github.event_name == 'push'
+        run: |
+          python3 - <<'PY'
+          import time, urllib.request
+          from pathlib import Path
+          origin='https://gianmarcocariola.github.io'
+          for attempt in range(36):
+              try:
+                  for url,path in [('/','index.html'),('/research/','research/index.html'),('/cv/','cv/index.html'),('/robots.txt','robots.txt'),('/sitemap.xml','sitemap.xml')]:
+                      with urllib.request.urlopen(origin+url,timeout=15) as response:
+                          assert response.status==200, url
+                          assert 'noindex' not in response.headers.get('X-Robots-Tag','').lower(), url
+                          live=response.read().decode()
+                          expected=(Path('_site')/path).read_text()
+                          assert live==expected, 'Deployment not updated: '+url
+                  print('Live HTTP 200, indexing headers and deployed content verified for all five URLs')
+                  break
+              except Exception as error:
+                  print(str(error))
+                  if attempt==35: raise
+                  time.sleep(5)
+          PY
